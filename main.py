@@ -4,12 +4,12 @@ from tkinter import *
 
 
 def exit_(event):
-    """Выход при нажатии ctr+z"""
+    # Выход при нажатии ctr+z
     root.destroy()
 
 
 def draw_tree(x, y, side, fi, alfa, deep, count_deep):
-    """Рекурсивно рисует дерево пифагора"""
+    # Рекурсивно рисует дерево пифагора
     x1 = x
     y1 = y
 
